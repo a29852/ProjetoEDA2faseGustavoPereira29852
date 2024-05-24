@@ -12,7 +12,7 @@
  * @param nome O parâmetro `nome` é um apontador para um array de caracteres constante que representa o nome do ficheiro
  *
  */
-Grafo* CarregarGrafo(const char* nome)
+Grafo* CarregarGrafo(char* nome)
 {
 	FILE* ficheiro = fopen(nome, "r");
 	if (ficheiro == NULL)
@@ -72,7 +72,7 @@ Grafo* CarregarGrafo(const char* nome)
  *
  */
 
-bool SalvarGrafo(Grafo* grafo, const char* nome)
+bool SalvarGrafo(Grafo* grafo,  char* nome)
 {
 
 	if (grafo == NULL || grafo->inicioGraph == NULL)
@@ -127,7 +127,7 @@ bool SalvarGrafo(Grafo* grafo, const char* nome)
  *
  */
 
-bool SalvarGrafoBinario(Grafo* grafo, const char* nome)
+bool SalvarGrafoBinario(Grafo* grafo,  char* nome)
 {
 	if (grafo == NULL || grafo->inicioGraph == NULL)
 	{
