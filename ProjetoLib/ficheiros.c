@@ -9,7 +9,7 @@
 /**
  * A função lê um ficheiro para carregar o grafo
  *
- * @param nome O parâmetro `nome` é um apontador para um array de caracteres constante que representa o nome do ficheiro
+ * @param nome O parâmetro `nome` é um apontador para um array de caracteres que representa o nome do ficheiro
  *
  */
 Grafo* CarregarGrafo(char* nome)
