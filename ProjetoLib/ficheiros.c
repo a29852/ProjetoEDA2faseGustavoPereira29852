@@ -146,7 +146,7 @@ bool SalvarGrafoBinario(Grafo* grafo,  char* nome)
 	while (aux != NULL) // Itera sobre todos os vértices do grafo
 	{
 
-		Adjacent* auxAdjacent = aux->nextAdjacent; // Apontador auxiliar para percorrer os adjacentes do vértice atual
+		Adjacent* auxAdjacent = aux->nextAdjacent; // Apontador auxiliar para percorrer os adjacentes do vertice atual
 
 		while (auxAdjacent != NULL) // Itera sobre todos os adjacentes do vertice atual
 		{
